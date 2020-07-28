@@ -1,11 +1,17 @@
 {
-    "name": "test/test",
-    "description": "fff",
+    "name": "vitalis/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "tarnamaco",
-            "email": "388971+tarnamaco@users.noreply.github.com"
+            "name": "Ogbonna Vitalis",
+            "email": "agavitalisogbonna@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+    },
     "require": {}
 }
