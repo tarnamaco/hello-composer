@@ -1,0 +1,11 @@
+{
+    "name": "test/test",
+    "description": "fff",
+    "authors": [
+        {
+            "name": "tarnamaco",
+            "email": "388971+tarnamaco@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
